@@ -54,4 +54,5 @@ var uniquePathsWithObstacles = function(o) {
     }
     return dp[m-1][n-1];
 };
+
 console.log(uniquePathsWithObstacles([[0,0,0],[0,1,0],[0,0,0]]));
